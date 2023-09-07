@@ -1,2 +1,0 @@
-python3 -c "command"    
-# makes the command between the double quotes do be COMPILED and run just like python3 command  
