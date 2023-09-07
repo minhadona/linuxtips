@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------------------------------
+VIDEO 5
+
+Shebang is the name of the first line where you give informations to the interpreter
+Ex:
+#!Python2.7
+To force the program to be executed by 2.7 version 
+
+GOOD PRACTICE: inform the path of the python interpreter you're using
+Ex: (which python3)
+#!/opt/homebrew/bin/python3
+
+When we use virtual env we can set as follow:
+#!/opt/homebrew/bin/env python3
+Where the 1st parameter is the env configuration path and the 2nd the command to run
+
+If we see the file shebang.py, and give it. Execution permission by typing chmod +x shebang.py on terminal, we don't need to call the interpreter anymore because the file will be executed by the one specified on the top of it. So only './shebang.py' as any script is now enough to execute it	
+
+---------------------------------------------------------------------------------------------------
+VIDEO 6
+
