@@ -19,3 +19,7 @@ If we see the file shebang.py, and give it. Execution permission by typing chmod
 ---------------------------------------------------------------------------------------------------
 VIDEO 6
 
+GOOD PRACTICE: program documentation made initial part as well, on """block comment""" including author, aim of the program, also SPECIFIC ENV SETTINGS IMPORTANT FOR COMPILATION, ex if your env var is set LANG=en_US.utf8, the program might compile and show a different output and it may not be wrong it's just miscommunication between the author and the user. So all prerequisites and recommendations	 are supposed to lay here and detailed described. 
+
+Paused at 10.18 of criando um programa q le variáveis de Ambiente, 40min total, b4 questionnaire 1 
+
