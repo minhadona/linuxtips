@@ -21,5 +21,26 @@ VIDEO 6
 
 GOOD PRACTICE: program documentation made initial part as well, on """block comment""" including author, aim of the program, also SPECIFIC ENV SETTINGS IMPORTANT FOR COMPILATION, ex if your env var is set LANG=en_US.utf8, the program might compile and show a different output and it may not be wrong it's just miscommunication between the author and the user. So all prerequisites and recommendations	 are supposed to lay here and detailed described. 
 
-Paused at 10.18 of criando um programa q le variáveis de Ambiente, 40min total, b4 questionnaire 1 
+Metadata of the program is normally defined at this part, after the comment and before the program, ex:
+
+__version__ = "0.0.1"
+__license__ = "Unlicense"
+
+Dunder init:
+__init__ 
+
+
+O seguinte trecho significa
+If __name__ == "__main__":
+	print('blah') 
+
+Significa que se a dunder name tiver o valor __main__ significa que o programa está sendo executado DENTRO do terminal e não dentro do jupyter por exemplo ou se tivesse sendo importado por outro programa também teria outro valor a variável name 
+
+Lendo as variáveis do env:
+Ver arquivo metadata_n_env.py
+Para sobrescrever var é só dar nome=valor,LANG=fr_FR 
+Para executar o programa c aquele valor de variável é só cmd >> LANG=fr_FR python3 metadata_n_env.py
+Na mesma linha 
+
+ 
 
